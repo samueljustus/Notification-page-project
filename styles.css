@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
+ */
+
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+
+body {
+   background-color: hsl(210, 60%, 98%);
+   font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+/* container*/
+
+#container {
+   height: 90vh;
+   width: 50%;
+   margin: auto;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 10px;
+   background-color: hsl(0, 0%, 100%);
+   
+}
+
+#header {
+   display: flex;
+   justify-content: space-between;
+  padding: 25px;
+}
+
+.notify {
+   font-weight: 800;
+   font-size: 1.5rem
+}
+
+
+.mark-all {
+   color: hsl(219, 85%, 26%);
+   font-weight: 800;
+}
+
+
+#mark {
+   background-color: hsl(210, 60%, 98%);
+   width: 90%;
+   height: 5rem;
+   margin: auto;
+}
+
+
+/* profile picture */ /* this style apply to all img */
+img {
+   width: 40px;   
+   height: 40px;
+}
+
+#mark {
+   display: flex;
+}
+
+.paragraph {             /* this style apply to all paragraph*/
+   margin-left: 20px;
+}
+
+.paragraph p {
+   font-size: 1rem;
+}
